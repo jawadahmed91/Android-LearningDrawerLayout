@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_aljazeera"
+            android:icon="@drawable/aljazeera"
+            android:title="Aljazeera"
+            android:menuCategory="secondary" />
+        <item
+            android:id="@+id/nav_bbc"
+            android:icon="@drawable/bbc"
+            android:title="BBC"
+            android:menuCategory="secondary" />
+        <item
+            android:id="@+id/nav_cnn"
+            android:icon="@drawable/cnn"
+            android:title="CNN"
+            android:menuCategory="secondary" />
+
+    </group>
+
+    <item
+        android:title="Upcoming"
+        android:menuCategory="secondary">
+        <menu>
+            <item
+                android:id="@+id/skyFragment"
+                android:icon="@drawable/sky"
+                android:title="SKY"
+                android:menuCategory="secondary" />
+        </menu>
+    </item>
+</menu>
